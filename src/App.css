@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  margin: 13%;
+  padding-top:4rem ;
+}

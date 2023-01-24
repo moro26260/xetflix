@@ -1,0 +1,131 @@
+.card {
+  background-color: #202020;
+  width: 300px;
+  height: 150px;
+  border-radius: 5px;
+  position: relative;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.content {
+  background-color: #202020;
+  color: #00d848;
+  font-size: 1.6rem;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.img {
+  width: 300px;
+  height: 160px;
+  object-fit: cover;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.options {
+  background: #202020;
+}
+
+.btnplay {
+  border-radius: 100%;
+  background-color: #ffffff;
+  border: none;
+  color: #000000;
+  padding: 8px 11px;
+  font-size: 13px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  left: 1rem;
+  top: 16.5rem;
+  text-align: center;
+}
+
+.btnplay:hover {
+  border: 2px solid #ffffff;
+  /* background-color: #e6e6e6; */
+}
+
+.btnadd {
+  border-radius: 100%;
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 8px 11px;
+  font-size: 13px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  left: 5rem;
+  top: 16.5rem;
+  text-align: center;
+}
+.btnadd:hover {
+  border: 2px solid #ffffff;
+}
+
+.btnlike {
+  border-radius: 100%;
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 8px 11px;
+  font-size: 13px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  left: 9rem;
+  top: 16.5rem;
+  text-align: center;
+}
+.btnlike:hover {
+  border: 2px solid #ffffff;
+}
+
+.btninfo {
+  border-radius: 100%;
+  background-color: #202020;
+  border: none;
+  color: white;
+  padding: 8px 11px;
+  font-size: 13px;
+  border: 2px solid #cccccc;
+  cursor: pointer;
+  margin: 5px;
+  position: absolute;
+  left: 24rem;
+  top: 16.5rem;
+  text-align: center;
+}
+
+.btninfo:hover {
+  border: 2px solid #ffffff;
+}
+
+.title1 {
+  background-color: #202020;
+  color: #46d369;
+  font-size: 1.4rem;
+  width: 95.3%;
+  text-transform: capitalize;
+  font-family: "Noto Sans", sans-serif;
+  position: relative;
+  top: 4.4rem;
+  padding-top: 1rem;
+  padding-left: 1.4rem;
+}
+.title2 {
+  background-color: #202020;
+  color: white;
+  font-size: 1.6rem;
+  position: relative;
+  top: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 1.4rem;
+}
