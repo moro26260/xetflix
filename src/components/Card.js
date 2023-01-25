@@ -2,6 +2,7 @@ import styles from "./card.module.css";
 import { motion } from "framer-motion";
 import { useState } from "react";
 import Modal from "./Modal.js";
+import PlayButton from "../icons/play-button.svg";
 import useDebounce from "../utils/useDebounce";
 
 function Card({ image, title, pragraph, layoutId, video }) {
@@ -85,6 +86,7 @@ function Card({ image, title, pragraph, layoutId, video }) {
         layoutId={layoutId}
         image={image}
         img={img}
+        video={video}
       />
       <motion.div
         onMouseEnter={playVideo}

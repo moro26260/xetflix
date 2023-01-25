@@ -42,6 +42,9 @@
   left: 1rem;
   top: 16.5rem;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .btnplay:hover {

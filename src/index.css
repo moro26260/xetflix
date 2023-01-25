@@ -29,6 +29,7 @@ body {
 
 .modal {
   position: relative;
+  top: 5rem;
   max-width: 1112px;
   max-height: 1000px;
   height: 800px;
@@ -37,7 +38,6 @@ body {
   background: #141414;
   border-radius: 5px;
   text-align: center;
-  margin-top: 52px;
   z-index: 20;
   overflow: scroll;
 }
@@ -62,7 +62,7 @@ body {
   background-color: rgba(32, 32, 32, 0.5);
   border: none;
   color: white;
-  padding: 15px 20px;
+  padding: 12px 15px;
   font-size: 20px;
   border: 2px solid #cccccc;
   cursor: pointer;

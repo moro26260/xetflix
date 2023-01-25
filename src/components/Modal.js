@@ -1,7 +1,7 @@
 import React from "react";
 import { motion, AnimatePresence } from "framer-motion";
 
-const Modal = ({ showModal, closeModal, layoutId, image, img }) => {
+const Modal = ({ showModal, closeModal, layoutId, image, img, video }) => {
   return (
     <AnimatePresence>
       {showModal && (

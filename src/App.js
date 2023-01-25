@@ -1,7 +1,7 @@
-import poster1 from "./29.jpg";
-import poster2 from "./28.jpg";
-import poster3 from "./26.jpg";
-import poster4 from "./27.jpg";
+import poster1 from "./images/29.jpg";
+import poster2 from "./images/28.jpg";
+import poster3 from "./images/26.jpg";
+import poster4 from "./images/27.jpg";
 import Card from "./components/Card";
 import "./App.css";
 
